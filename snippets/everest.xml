@@ -72,7 +72,7 @@
   <!-- Vendor -->
   <project path="vendor/extra" name="vendor_extra" remote="everest" />
   <project path="vendor/lineage" name="vendor_everest" remote="everest" />
-  <project path="vendor/gms" name="vendor_gms" remote="everest-gitea" clone-depth="1" />
+  <!-- project path="vendor/gms" name="vendor_gms" remote="everest-gitea" clone-depth="1" /> -->
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="everest" />
   <project path="vendor/pixel-style" name="vendor_pixel-style" remote="everest" />
 </manifest>
