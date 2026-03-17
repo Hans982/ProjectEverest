@@ -9,10 +9,14 @@
           fetch="https://gitlab.com/someone5678/"
           revision="main" />
 
+  <remote name="EverestOS-AOSP"
+          fetch="https://github.com/EverestOS-AOSP"
+          revision="15" />
+    
   <!-- Packages repos -->
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="parasite" />
   <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="parasite" />
-  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="parasite-gitlab" />
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="EverestOS-AOSP" />
   <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="parasite" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="parasite" />
 
