@@ -12,7 +12,11 @@
   <remote name="EverestOS-AOSP"
           fetch="https://github.com/EverestOS-AOSP"
           revision="15" />
-    
+  
+  <remote name= "TenX-OS"
+          fetch="https://github.com/TenX-OS"
+          revision="fourteen" />
+  
   <!-- Packages repos -->
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="parasite" />
   <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="parasite" />
@@ -22,5 +26,5 @@
 
   <!-- Prebuilts repos -->
   <project path="prebuilts/custom-sdk" name="prebuilts_custom-sdk" remote="parasite" />
-  <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="parasite" />
+  <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="TenX-OS" />
 </manifest>
